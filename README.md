@@ -5,7 +5,7 @@
 This code was generated in the linked YouTube video about making a speech-to-text listener on a Raspberry Pi with a USB mic.  See more at: [Offline Voice Control](https://youtu.be/oKQ9xvL7ptM)
 
 ## Installation
-Works on Git Bash on Windows:
+Works on Git Bash on Windows.  The code picks up the default mic.  On a Windows laptop, this will be your laptop mic unless you have plugged a different one in.  On RPi, this will be any USB mic that you have plugged into the port:
 ```
 git clone https://github.com/OhioIoT-Voice-Controls/Vosk-Listener-MQTT.git vosk-mqtt
 cd vosk-mqtt
