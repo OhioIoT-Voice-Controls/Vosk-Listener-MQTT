@@ -2,7 +2,7 @@
 
 ##### [(back to the Voice Controls organization page)](https://github.com/OhioIoT-Voice-Controls)
 
-This code was generated in the linked YouTube video about making a speech-to-text listener on a Raspberry Pi with a USB mic.  See more at: [Offline Voice Control](https://youtu.be/oKQ9xvL7ptM)
+This code was generated in the linked YouTube video about making a speech-to-text voice assistant on a Raspberry Pi with a USB mic and MQTT.  See more at: [Offline Voice Control With MQTT](https://youtu.be/_ERvoHMBDac)
 
 ## Installation
 Works on Git Bash on Windows.  The code picks up the default mic.  On a Windows laptop, this will be your laptop mic unless you have plugged a different one in.  On RPi, this will be any USB mic that you have plugged into the port:
