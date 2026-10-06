@@ -16,6 +16,10 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ./+run
 ```
+Edit the IP address on line xx of `listener.py` to match the IP address of the MQTT broker that you are running.  Then:
+```
+./+run
+```
 
 
 ## About
