@@ -13,7 +13,7 @@ from vosk import Model, KaldiRecognizer, SetLogLevel
 
 # --- messaging -------------------------------------
 import paho.mqtt.client as mqtt
-MQTT_HOST = "10.0.0.86"
+MQTT_HOST = "xxx.xxx.xxx.xxx"  # set this to the IP address of your mosquitto broker
 MQTT_PORT = 1883
 MQTT_TOPIC = "voice/command"
 
