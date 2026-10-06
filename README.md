@@ -23,6 +23,7 @@ Then run:
 If the script says `listening...`, it means you have successfully attached to the MQTT broker.  If you say "lights on" or "lights off", you will see that an MQTT messages is sent to the broker with topoic `voice/command' and then payload `set_lights_on` or `set_lights_off`.
 
 Previous Video:  [Video](https://youtu.be/oKQ9xvL7ptM)
+
 Previous Git Repo:  [Code Example](https://github.com/OhioIoT-Voice-Controls/Vosk-Listener)
 
 ## About
