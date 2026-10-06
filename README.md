@@ -16,11 +16,11 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ./+run
 ```
-Edit the IP address on line xx of `listener.py` to match the IP address of the MQTT broker that you are running.  Then:
+Edit the IP address on line 16 of `listener.py` to match the IP address of the MQTT broker that you are running.  Then:
 ```
 ./+run
 ```
-
+If the script says `listening...`, it means you have successfully attached to the MQTT broker.  If you say "lights on" or "lights off", you will see that an MQTT messages is sent to the broker with topoic `voice/command' and then payload `set_lights_on` or `set_lights_off`.
 
 ## About
 <a href="https://www.ohioiot.com"><img src="https://www.ohioiot.com/logo_150.jpg" width="40" ></a>
