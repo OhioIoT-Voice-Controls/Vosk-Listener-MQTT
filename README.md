@@ -6,7 +6,7 @@ This code was generated in the linked YouTube video about making a speech-to-tex
 
 
 ## Installation
-Just paste these commands to start your voice listener.  When you see `listening...`, it's working.  It works on Git Bash on Windows.  The code picks up the default mic:
+Run the following commands.  It works on Git Bash on Windows:
 ```
 git clone https://github.com/OhioIoT-Voice-Controls/Vosk-Listener-MQTT.git vosk-mqtt
 cd vosk-mqtt
@@ -20,7 +20,7 @@ Then run:
 ```
 ./+run
 ```
-If the script says `listening...`, it means you have successfully attached to the MQTT broker.  If you say "lights on" or "lights off", you will see that an MQTT messages is sent to the broker with topoic `voice/command' and then payload `set_lights_on` or `set_lights_off`.
+If the script says `listening...`, it means you have successfully attached to the MQTT broker and are using the default microphone.  If you say "lights on" or "lights off", you will see that an MQTT messages is sent to the broker with topic `voice/command' and then payload `set_lights_on` or `set_lights_off`.
 
 Previous Video:  [Video](https://youtu.be/oKQ9xvL7ptM)
 
