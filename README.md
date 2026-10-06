@@ -2,9 +2,8 @@
 
 ##### [(back to the Voice Controls organization page)](https://github.com/OhioIoT-Voice-Controls)
 
-This code was generated in the linked YouTube video about making a speech-to-text voice assistant on a Raspberry Pi with a USB mic and MQTT.  See more at:
-- [Video](https://youtu.be/_ERvoHMBDac)
-- [Code Example](https://github.com/OhioIoT-Voice-Controls/Vosk-Listener)
+This code was generated in the linked YouTube video about making a speech-to-text voice assistant on a Raspberry Pi with a USB mic and MQTT:  [Video](https://youtu.be/_ERvoHMBDac)
+
 
 ## Installation
 Just paste these commands to start your voice listener.  When you see `listening...`, it's working.  It works on Git Bash on Windows.  The code picks up the default mic:
@@ -22,6 +21,9 @@ Then run:
 ./+run
 ```
 If the script says `listening...`, it means you have successfully attached to the MQTT broker.  If you say "lights on" or "lights off", you will see that an MQTT messages is sent to the broker with topoic `voice/command' and then payload `set_lights_on` or `set_lights_off`.
+
+Previous Video:  [Video](https://youtu.be/oKQ9xvL7ptM)
+Previous Git Repo:  [Code Example](https://github.com/OhioIoT-Voice-Controls/Vosk-Listener)
 
 ## About
 <a href="https://www.ohioiot.com"><img src="https://www.ohioiot.com/logo_150.jpg" width="40" ></a>
